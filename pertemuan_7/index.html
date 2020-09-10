@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<body>
+        <fieldset>
+            <legend>Formulir calon pegawai</legend>
+		    <form method="post" action="proses.php">
+            </form>
+                <label for="name">Nama : </label>
+                <input type="text" name="name" /><br>
+                <label for="address">Alamat : </label>
+                <input type="text" name="address" /><br>
+                <label for="password">password : </label>
+                <input type="text" name="password"><br>
+			    Jenis Kelamin<input type="radio" name="jk" value="laki-laki"> laki-laki
+				<input type="radio" namem="jk" value="perempuan"> perempuan
+        <br>
+            Bahasa pemrograman yang disukai <input type="checkbox" name="bahasa pemrograman yang disukai" value="web" /> web
+            <input type="checkbox" name="bahasa pemrograman yang disukai" value="mobile" /> mobile
+            <input type="checkbox" name="bahasa pemrograman yang disukai" value="desktop" /> desktop
+        <br>
+                Kota Asal  <select name="kota">
+                <option value="Bitung">Bitung</option>
+                <option  value="manado">Manado</option>
+                <option  value="Tomohon">Tomohon</option>
+                <option  value="Tondano">Tondano</option> 
+
+                <textarea rows="5" cols="50 " placeholder="Tulis jawaban Anda disini"></textarea>       
+  
+                <input type="submit" value ="proses"
+        </fieldset>
+    </body>
+</html>
