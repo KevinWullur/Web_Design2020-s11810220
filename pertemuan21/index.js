@@ -38,7 +38,6 @@ console.log("Basic JavaScript")
 //     break;
 // }
 
-let umur = 25
 
 // if (umur < 13 ){
 //     console.log("kategori anak-anak");
@@ -70,14 +69,28 @@ let umur = 25
 // function helloWorld(){
 //     console.log("Hellow World function declaration");
 // }
+// let age = 33;
+// let helloWorld = function (nama) {
+//     let age = 33;
+//     console.log("Hello " + nama + ". umur saya adalah" + age + " tahun.");
+// };
+// console.log(age);
+// helloWorld("Stenly Adam");
 
-let age = 33;
+let classification = 25
 
-let helloWorld = function (nama) {
-    let age = 33;
-    console.log("Hello " + nama + ". umur saya adalah" + age + " tahun.");
-};
-
-console.log(age);
-
-helloWorld("Stenly Adam");
+if (classification < 18.5 ){
+    console.log("Underweight");
+} else if (classification >= 18.5 && classification <24.9 ){
+    console.log("Normal range");
+}else if (classification >= 25.0 && classification <29.9){
+    console.log("Overweight");
+}else if(classification >= 30.0){
+    console.log("obese");
+}else if(classification > 30.0 && classification <34.9){
+    console.log("Class 1");
+}else if(classification > 35.0 && classification <34.9){
+    console.log("Class 2");
+}else if(classification >= 40){
+    console.log("Class 3");
+}
